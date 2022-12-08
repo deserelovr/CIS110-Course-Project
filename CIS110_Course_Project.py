@@ -32,8 +32,8 @@ while playagin.lower() == 'yes':
         ownerName = input('Please enter your name:')
 
     print("\nNow that the questions are done.....Lets get to the story!")
-    print('\nOn this one random nice' , tday, "your dog" , dogName , "was home with " , ownerName, " their loving owner.")
-    print("\nSo today, " + str(dogName) + "throught it would be a great idea to see if they could be just like you.")
+    print('\nOn this one random nice' , tday, "your dog" , dogName , "was home with ", ownerName, " their loving owner.")
+    print("\nSo today , " + str(dogName) + "throught it would be a great idea to see if they could be just like you.")
     print('Once you finally moved from the room after completing your latest project, ' + str(dogName) + " took this as a chance to see if they could do it just like you.")
 
     makeAchoice = input('Should ' + str(dogName) + " try to make the same project?")
