@@ -1,5 +1,6 @@
-print ("Hello there, I hope you are ready for story time!")
+print ("Hey there my friend, I hope you are ready for story time!")
 print("Before we get to the story, I have some questions to ask.")
+print('They are simple ones I promise.')
 print("After you enter the answer to the question press the enter key.")
 input("\nPress enter key to continue....")
 
@@ -22,7 +23,7 @@ while playagin.lower() == 'yes':
     while (len(hobby) == 0):
         hobby = input('Please enter a project based hobby:')
 
-    num = input("\nEnter a number between 1-15.")
+    num = input("\nEnter a number between 1-15: ")
     while not num.isdigit():
         num = input('Please enter a numeric value:')
 
@@ -68,19 +69,19 @@ while playagin.lower() == 'yes':
     
     if makeAchoice == 'yes' and getTheCream == 'yes':
         print('\nAfter spending the day making a  ' + str(hobby) + 'walking around ' + str(city) + " and stopping at the Ice Cream shop, " + str(dogName) + "was seen by your friend.")
-        print("\nLuckily, your friend reconized " , dogName , "and saw " + str(ownerName) + " on the collar.")
+        print("\nLuckily, your friend reconized " , dogName , "and saw your name " + str(ownerName) + " on the collar.")
         print(str(dogName) + "was brought home with a full belly and happy to see you.")
 
     elif makeAchoice == 'yes':
         print("\nAfter spending the day making a " , hobby , " and walking around " + str(city) + "someone you knew found your dog.")
-        print("Your friend reconized " , dogName , "and saw " , ownerName , "on the collar.")
+        print("Your friend reconized " , dogName , "and saw your name  " , ownerName , "on the collar.")
         print(str(dogName) + ' was brought home without causing any trouble.')
     else:
         print('\nAfter making a mess in the house' , dogName , ' and taking a sroll around town.')
-        print("Your friend reconized " , dogName , "and saw " , ownerName , "on the collar.")
+        print("Your friend reconized " , dogName , "and saw your name " , ownerName , "on the collar.")
         print(str(dogName) + ' was brought home without causing any trouble.')
         print('You realized you really have a great dog.')
 
     playagin = input('\nWould you like to play again? Enter yes or no: ')
-    while playagin.lower != 'yes' and playagin.lower != 'no':
+    while playagin.lower() !='yes' and playagin.lower() != 'no':
         playagin = input('Enter yes or no: ')
